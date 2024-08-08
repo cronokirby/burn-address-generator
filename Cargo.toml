@@ -4,3 +4,6 @@ version = "0.1.0"
 edition = "2021"
 
 [dependencies]
+decaf377 = "0.10"
+penumbra-keys = { git = "https://github.com/penumbra-zone/penumbra", tag = "v0.80.0" }
+sha2 = "0.10.8"
