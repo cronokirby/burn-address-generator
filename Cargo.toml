@@ -7,3 +7,7 @@ edition = "2021"
 decaf377 = "0.10"
 penumbra-keys = { git = "https://github.com/penumbra-zone/penumbra", tag = "v0.80.0" }
 sha2 = "0.10.8"
+
+# Optimize all dependencies
+[profile.dev.package."*"]
+opt-level = 3
